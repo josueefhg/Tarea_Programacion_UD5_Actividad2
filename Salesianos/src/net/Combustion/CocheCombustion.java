@@ -82,10 +82,10 @@ public class CocheCombustion extends Vehiculo {
 
     @Override
     public String toString() {
-        return "CocheCombustion{"
-                + "color='" + color + '\'' + ", numeroPuertas=" + numeroPuertas
-                + ", numeroRuedas=" + numeroRuedas + ", modelo='" + modelo + '\''
-                + ", matricula='" + matricula + '\'' + ", motorCombustionEncendido=" + motorCombustionEncendido
-                + ", litrosCombustible=" + litrosCombustible + '}';
+        return "Coche de Combustion :  "
+                + "El color es  = '" + color + '\'' + ", numero de Puertas = " + numeroPuertas
+                + ", numero de Ruedas = " + numeroRuedas + ", modelo de coche = '" + modelo + '\''
+                + ", matricula = '" + matricula + '\'' + ", el motor se encuentra encendido = " + motorCombustionEncendido
+                + ", el tanque tiene = " + litrosCombustible ;
     }
 }
